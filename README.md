@@ -10,7 +10,7 @@ Requires (to compile):<br/>
 `Android 2.1 (API 7) SDK Platform`
 
 Subversion checkout URL:<br/>
-* https://github.com/dandar3/android-support-v4/tags/22.2.0
+* https://github.com/dandar3/android-support-design/tags/22.2.0
 
 Release Notes:
 * https://developer.android.com/tools/support-library/index.html#revisions
