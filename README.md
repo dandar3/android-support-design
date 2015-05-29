@@ -12,6 +12,6 @@ Requires (to compile):<br/>
 Subversion checkout URL:<br/>
 https://github.com/dandar3/android-support-design/tags/22.2.0
 
-Resources:
+Resources:<br/>
 https://developer.android.com/tools/support-library/index.html#revisions<br/>
 https://android-developers.blogspot.com/2015/05/android-design-support-library.html
