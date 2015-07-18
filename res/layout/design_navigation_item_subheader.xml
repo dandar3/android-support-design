@@ -21,6 +21,6 @@
           android:maxLines="1"
           android:paddingLeft="?attr/listPreferredItemPaddingLeft"
           android:paddingRight="?attr/listPreferredItemPaddingRight"
-          android:textAppearance="?attr/textAppearanceListItem"
+          android:textAppearance="@style/TextAppearance.AppCompat.Body2"
           android:textColor="?android:textColorSecondary"/>
 <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/design/res/layout/design_navigation_item_subheader.xml -->

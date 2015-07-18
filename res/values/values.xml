@@ -73,6 +73,9 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
+    <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
     <style name="TextAppearance.Design.Error" parent="TextAppearance.AppCompat.Caption">
         <item name="android:textColor">@color/error_color</item>
     </style>
@@ -96,9 +99,8 @@
         <item name="android:background">?attr/colorPrimary</item>
     </style>
     <style name="Widget.Design.CollapsingToolbar" parent="android:Widget">
-        <item name="expandedTitleMargin">16dp</item>
-        <item name="expandedTitleMarginBottom">20dp</item>
-        <item name="expandedTitleTextAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="expandedTitleMargin">32dp</item>
+        <item name="expandedTitleTextAppearance">@style/TextAppearance.Design.CollapsingToolbar.Expanded</item>
         <item name="collapsedTitleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
         <item name="statusBarScrim">?attr/colorPrimaryDark</item>
     </style>
