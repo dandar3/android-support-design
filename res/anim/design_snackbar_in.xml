@@ -15,7 +15,7 @@
   ~ limitations under the License.
 -->
 
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-        android:shape="oval">
-    <solid android:color="@android:color/white" />
-</shape><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/design/res/drawable/fab_background.xml -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:fromYDelta="100%"
+           android:toYDelta="0"/>
+<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/design/res/anim/design_snackbar_in.xml -->

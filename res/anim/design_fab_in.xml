@@ -13,9 +13,19 @@
   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
--->
+  -->
 
-<translate xmlns:android="http://schemas.android.com/apk/res/android"
-           android:fromYDelta="100%"
-           android:toYDelta="0"/>
-<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/design/res/anim/snackbar_in.xml -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <alpha android:fromAlpha="0.0"
+           android:toAlpha="1.0"/>
+
+    <scale android:fromXScale="0.0"
+           android:fromYScale="0.0"
+           android:toXScale="1.0"
+           android:toYScale="1.0"
+           android:pivotX="50%"
+           android:pivotY="50%"/>
+
+</set>
+<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/design/res/anim/design_fab_in.xml -->
