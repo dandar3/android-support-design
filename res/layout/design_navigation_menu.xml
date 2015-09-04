@@ -24,4 +24,4 @@
         android:divider="@null"
         android:scrollbars="vertical"
         android:listSelector="?attr/selectableItemBackground"/>
-<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/design/res/layout/design_navigation_menu.xml -->
+<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-sdk-release/frameworks/support/design/res/layout/design_navigation_menu.xml -->

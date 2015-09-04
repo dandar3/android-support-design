@@ -18,4 +18,4 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:layout_gravity="center"/><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/design/res/layout/design_layout_tab_icon.xml -->
+           android:layout_gravity="center"/><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-sdk-release/frameworks/support/design/res/layout/design_layout_tab_icon.xml -->

@@ -2,13 +2,13 @@ android-support-design
 ======================
 
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/design/23.0.0/design-23.0.0.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/design/23.0.1/design-23.0.1.aar`
 
 Requires (to compile):<br/>
 `Android 6.0 (API 23) SDK Platform`
 
 Subversion checkout URL:<br/>
-* https://github.com/dandar3/android-support-design/tags/23.0.0
+* https://github.com/dandar3/android-support-design/tags/23.0.1
 
 Resources:<br/>
 * https://developer.android.com/tools/support-library/index.html#revisions
