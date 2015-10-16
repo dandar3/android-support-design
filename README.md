@@ -18,5 +18,5 @@ Subversion checkout URL:<br/>
 Resources:<br/>
 * https://developer.android.com/tools/support-library/index.html#revisions
 * https://developer.android.com/tools/support-library/features.html#design
-* https://android-developers.blogspot.com/2015/10/android-support-library-231.html?linkId=17977963
+* https://android-developers.blogspot.com/2015/10/android-support-library-231.html
 * https://android-developers.blogspot.com/2015/05/android-design-support-library.html
