@@ -20,8 +20,5 @@
         android:layout_height="?attr/listPreferredItemHeightSmall"
         android:paddingLeft="?attr/listPreferredItemPaddingLeft"
         android:paddingRight="?attr/listPreferredItemPaddingRight"
-        android:drawablePadding="@dimen/design_navigation_icon_padding"
-        android:gravity="center_vertical|start"
-        android:maxLines="1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
-<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-sdk-release/frameworks/support/design/res/layout/design_navigation_item.xml -->
+        android:foreground="?attr/selectableItemBackground"/>
+<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/design/res/layout/design_navigation_item.xml -->
