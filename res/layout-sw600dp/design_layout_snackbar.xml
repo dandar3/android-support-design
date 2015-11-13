@@ -20,4 +20,4 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="bottom|center_horizontal"
-      style="@style/Widget.Design.Snackbar" /><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/design/res/layout-sw600dp/design_layout_snackbar.xml -->
+      style="@style/Widget.Design.Snackbar" /><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/layout-sw600dp/design_layout_snackbar.xml -->

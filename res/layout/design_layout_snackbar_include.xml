@@ -46,4 +46,4 @@
             android:textColor="?attr/colorAccent"
             style="?attr/borderlessButtonStyle"/>
 
-</merge><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/design/res/layout/design_layout_snackbar_include.xml -->
+</merge><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/layout/design_layout_snackbar_include.xml -->

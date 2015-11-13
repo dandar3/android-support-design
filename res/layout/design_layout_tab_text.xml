@@ -16,8 +16,8 @@
 -->
 
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-          android:layout_width="match_parent"
+          android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:ellipsize="end"
           android:gravity="center"
-          android:maxLines="2"/><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/design/res/layout/design_layout_tab_text.xml -->
+          android:maxLines="2"/><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/layout/design_layout_tab_text.xml -->
