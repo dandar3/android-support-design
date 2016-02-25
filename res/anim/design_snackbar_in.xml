@@ -18,4 +18,3 @@
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
            android:fromYDelta="100%"
            android:toYDelta="0"/>
-<!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/anim/design_snackbar_in.xml -->

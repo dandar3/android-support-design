@@ -2,7 +2,7 @@ android-support-design
 ======================
 
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/design/23.1.1/design-23.1.1.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/design/23.2.0/design-23.2.0.aar`
 
 Requires (to compile):<br/>
 `Android 6.0 (API 23) SDK Platform`
@@ -13,11 +13,10 @@ Requires libraries:</br>
 * [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview)
 
 Subversion checkout URL:<br/>
-* https://github.com/dandar3/android-support-design/tags/23.1.1
+* https://github.com/dandar3/android-support-design/tags/23.2.0
 
 Resources:<br/>
 * https://developer.android.com/tools/support-library/index.html#revisions
 * https://developer.android.com/tools/support-library/features.html#design
-* https://android-developers.blogspot.com/2015/05/android-design-support-library.html 
-* https://android-developers.blogspot.com/2015/10/android-support-library-231.html
-* https://plus.google.com/+AndroidDevelopers/posts/ebXLByBiEBU
+* https://plus.google.com/+AndroidDevelopers/posts/QFtt71VUgsB
+* https://android-developers.blogspot.com/2016/02/android-support-library-232.html

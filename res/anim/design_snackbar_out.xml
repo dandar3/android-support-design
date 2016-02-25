@@ -17,4 +17,4 @@
 
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
            android:fromYDelta="0"
-           android:toYDelta="100%"/><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/anim/design_snackbar_out.xml -->
+           android:toYDelta="100%"/>

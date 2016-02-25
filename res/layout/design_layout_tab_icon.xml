@@ -18,4 +18,4 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
            android:layout_width="24dp"
            android:layout_height="24dp"
-           android:scaleType="centerInside"/><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/layout/design_layout_tab_icon.xml -->
+           android:scaleType="centerInside"/>

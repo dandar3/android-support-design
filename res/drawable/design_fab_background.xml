@@ -18,4 +18,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="oval">
     <solid android:color="@android:color/white" />
-</shape><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/drawable/design_fab_background.xml -->
+</shape>

@@ -22,4 +22,3 @@
         android:paddingRight="?attr/listPreferredItemPaddingRight"
         android:foreground="?attr/selectableItemBackground"
         android:focusable="true"/>
-<!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/layout/design_navigation_item.xml -->
