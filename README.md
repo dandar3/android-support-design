@@ -12,8 +12,11 @@ Requires libraries:</br>
 * [dandar3/android-support-v7-appcompat](https://github.com/dandar3/android-support-v7-appcompat)
 * [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview)
 
-Subversion checkout URL:<br/>
-* https://github.com/dandar3/android-support-design/tags/23.4.0
+Subversion checkout URLs:<br/>
+* Eclipse ADT<br/>
+  https://github.com/dandar3/android-support-design/tags/23.4.0
+* Eclipse Andmore<br/>
+  https://github.com/dandar3/android-support-design/tags/23.4.0_andmore
 
 Resources:<br/>
 * https://developer.android.com/tools/support-library/index.html#revisions
