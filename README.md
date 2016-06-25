@@ -9,7 +9,7 @@ Eclipse library project based on:<br/>
 - [dandar3/android-support-v7-appcompat](https://github.com/dandar3/android-support-v7-appcompat)
 - [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview)
 
-**Resources:**
+**References:**
 - https://developer.android.com/topic/libraries/support-library/revisions.html
 - https://developer.android.com/topic/libraries/support-library/features.html#design
 
