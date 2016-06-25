@@ -1,25 +1,20 @@
-android-support-design
-======================
+## android-support-design
 
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/design/23.4.0/design-23.4.0.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/design/24.0.0/design-24.0.0.aar`
 
-Requires (to compile):<br/>
-`Android 6.0 (API 23) SDK Platform`
-
-Requires libraries:</br>
-* [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4)
-* [dandar3/android-support-v7-appcompat](https://github.com/dandar3/android-support-v7-appcompat)
-* [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview)
-
-Subversion checkout URLs:<br/>
-* Eclipse ADT<br/>
-  https://github.com/dandar3/android-support-design/tags/23.4.0
-* Eclipse Andmore<br/>
-  https://github.com/dandar3/android-support-design/tags/23.4.0_andmore
+**Requires:**
+- `Android N (API 24) SDK Platform`
+- [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4)
+- [dandar3/android-support-v7-appcompat](https://github.com/dandar3/android-support-v7-appcompat)
+- [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview)
 
 Resources:<br/>
-* https://developer.android.com/tools/support-library/index.html#revisions
-* https://developer.android.com/tools/support-library/features.html#design
-* https://plus.google.com/+AndroidDevelopers/posts/B7QhFkWZ6YX
-* https://android-developers.blogspot.com/2016/02/android-support-library-232.html
+- https://developer.android.com/topic/libraries/support-library/revisions.html
+- https://developer.android.com/topic/libraries/support-library/features.html#design
+
+**SVN checkout:**
+- `Eclipse ADT`<br/>
+  https://github.com/dandar3/android-support-design/tags/24.0.0
+- `Eclipse Andmore`<br/>
+  https://github.com/dandar3/android-support-design/tags/24.0.0_andmore

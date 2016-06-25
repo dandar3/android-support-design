@@ -16,8 +16,11 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.support.design"
-    android:versionCode="2340"
-    android:versionName="23.4.0">
+    android:versionCode="2400"
+    android:versionName="24.0.0">
+
     <uses-sdk android:minSdkVersion="7" />
+
     <application />
+
 </manifest>
