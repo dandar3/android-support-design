@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.support.design"
-    android:versionCode="2400"
-    android:versionName="24.0.0">
+    package="android.support.design" 
+          android:versionCode="2410"
+          android:versionName="24.1.0">
 
     <uses-sdk android:minSdkVersion="7" />
 

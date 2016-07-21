@@ -1,7 +1,7 @@
 ## android-support-design
 
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/design/24.0.0/design-24.0.0.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/design/24.1.0/design-24.1.0.aar`
 
 **Requires:**
 - `Android N (API 24) SDK Platform`
@@ -15,6 +15,6 @@ Eclipse library project based on:<br/>
 
 **SVN checkout:**
 - `Eclipse ADT`<br/>
-  https://github.com/dandar3/android-support-design/tags/24.0.0
+  https://github.com/dandar3/android-support-design/tags/24.1.0
 - `Eclipse Andmore`<br/>
-  https://github.com/dandar3/android-support-design/tags/24.0.0_andmore
+  https://github.com/dandar3/android-support-design/tags/24.1.0_andmore
