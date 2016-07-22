@@ -14,7 +14,4 @@ Eclipse library project based on:<br/>
 - https://developer.android.com/topic/libraries/support-library/features.html#design
 
 **SVN checkout:**
-- `Eclipse ADT`<br/>
-  https://github.com/dandar3/android-support-design/tags/24.1.0
-- `Eclipse Andmore`<br/>
-  https://github.com/dandar3/android-support-design/tags/24.1.0_andmore
+- https://github.com/dandar3/android-support-design/tags/24.1.0
