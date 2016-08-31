@@ -28,7 +28,10 @@
             
             <flag name="snap" value="0x10"/>
         </attr><attr format="reference" name="layout_scrollInterpolator"/></declare-styleable>
-    <declare-styleable name="BottomSheetBehavior_Layout"><attr format="dimension" name="behavior_peekHeight"/><attr format="boolean" name="behavior_hideable"/><attr format="boolean" name="behavior_skipCollapsed"/></declare-styleable>
+    <declare-styleable name="BottomSheetBehavior_Layout"><attr format="dimension" name="behavior_peekHeight">
+            
+            <enum name="auto" value="-1"/>
+        </attr><attr format="boolean" name="behavior_hideable"/><attr format="boolean" name="behavior_skipCollapsed"/></declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout"><attr format="dimension" name="expandedTitleMargin"/><attr format="dimension" name="expandedTitleMarginStart"/><attr format="dimension" name="expandedTitleMarginTop"/><attr format="dimension" name="expandedTitleMarginEnd"/><attr format="dimension" name="expandedTitleMarginBottom"/><attr format="reference" name="expandedTitleTextAppearance"/><attr format="reference" name="collapsedTitleTextAppearance"/><attr format="color" name="contentScrim"/><attr format="color" name="statusBarScrim"/><attr format="reference" name="toolbarId"/><attr format="dimension" name="scrimVisibleHeightTrigger"/><attr format="integer" name="scrimAnimationDuration"/><attr name="collapsedTitleGravity">
             
             <flag name="top" value="0x30"/>
@@ -110,6 +113,38 @@
             <flag name="start" value="0x00800003"/>
             
             <flag name="end" value="0x00800005"/>
+        </attr><attr format="enum" name="layout_insetEdge">
+            
+            <enum name="none" value="0x0"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="right" value="0x03"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+            <enum name="end" value="0x00800005"/>
+        </attr><attr name="layout_dodgeInsetEdges">
+            
+            <flag name="none" value="0x0"/>
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x03"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+            
+            <flag name="all" value="0x77"/>
         </attr></declare-styleable>
     <declare-styleable name="DesignTheme"><attr format="reference" name="bottomSheetDialogTheme"/><attr format="reference" name="bottomSheetStyle"/><attr format="color" name="textColorError"/></declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize">
@@ -120,6 +155,7 @@
             
             <enum name="mini" value="1"/>
         </attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
+    <declare-styleable name="FloatingActionButton_Behavior_Layout"><attr format="boolean" name="behavior_autoHide"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
     <declare-styleable name="NavigationView"><attr name="android:background"/><attr name="android:fitsSystemWindows"/><attr name="android:maxWidth"/><attr name="elevation"/><attr format="reference" name="menu"/><attr format="color" name="itemIconTint"/><attr format="color" name="itemTextColor"/><attr format="reference" name="itemBackground"/><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="headerLayout"/></declare-styleable>
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
@@ -133,10 +169,27 @@
             <enum name="fill" value="0"/>
             <enum name="center" value="1"/>
         </attr><attr format="dimension" name="tabMinWidth"/><attr format="dimension" name="tabMaxWidth"/><attr format="reference" name="tabTextAppearance"/><attr format="color" name="tabTextColor"/><attr format="color" name="tabSelectedTextColor"/><attr format="dimension" name="tabPaddingStart"/><attr format="dimension" name="tabPaddingTop"/><attr format="dimension" name="tabPaddingEnd"/><attr format="dimension" name="tabPaddingBottom"/><attr format="dimension" name="tabPadding"/></declare-styleable>
-    <declare-styleable name="TextInputLayout"><attr format="reference" name="hintTextAppearance"/><attr name="android:hint"/><attr format="boolean" name="hintEnabled"/><attr format="boolean" name="errorEnabled"/><attr format="reference" name="errorTextAppearance"/><attr format="boolean" name="counterEnabled"/><attr format="integer" name="counterMaxLength"/><attr format="reference" name="counterTextAppearance"/><attr format="reference" name="counterOverflowTextAppearance"/><attr name="android:textColorHint"/><attr format="boolean" name="hintAnimationEnabled"/></declare-styleable>
+    <declare-styleable name="TextInputLayout"><attr format="reference" name="hintTextAppearance"/><attr name="android:hint"/><attr format="boolean" name="hintEnabled"/><attr format="boolean" name="errorEnabled"/><attr format="reference" name="errorTextAppearance"/><attr format="boolean" name="counterEnabled"/><attr format="integer" name="counterMaxLength"/><attr format="reference" name="counterTextAppearance"/><attr format="reference" name="counterOverflowTextAppearance"/><attr name="android:textColorHint"/><attr format="boolean" name="hintAnimationEnabled"/><attr format="boolean" name="passwordToggleEnabled"/><attr format="reference" name="passwordToggleDrawable"/><attr format="string" name="passwordToggleContentDescription"/><attr format="color" name="passwordToggleTint"/><attr name="passwordToggleTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+        </attr></declare-styleable>
     <dimen name="design_appbar_elevation">4dp</dimen>
+    <dimen name="design_bottom_navigation_active_item_max_width">168dp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
+    <dimen name="design_bottom_navigation_height">56dp</dimen>
+    <dimen name="design_bottom_navigation_item_max_width">96dp</dimen>
+    <dimen name="design_bottom_navigation_margin">8dp</dimen>
+    <dimen name="design_bottom_navigation_text_size">12sp</dimen>
     <dimen name="design_bottom_sheet_modal_elevation">16dp</dimen>
-    <dimen name="design_bottom_sheet_modal_peek_height">256dp</dimen>
+    <dimen name="design_bottom_sheet_peek_height_min">64dp</dimen>
     <dimen name="design_fab_border_width">0.5dp</dimen>
     <dimen name="design_fab_elevation">6dp</dimen>
     <dimen name="design_fab_image_size">24dp</dimen>
@@ -164,6 +217,7 @@
     <dimen name="design_tab_text_size">14sp</dimen>
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item name="view_offset_helper" type="id"/>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -191,10 +245,10 @@
     </style>
     <style name="TextAppearance.Design.Counter" parent="TextAppearance.AppCompat.Caption"/>
     <style name="TextAppearance.Design.Counter.Overflow" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textColor">?attr/textColorError</item>
+        <item name="android:textColor">@color/design_error</item>
     </style>
     <style name="TextAppearance.Design.Error" parent="TextAppearance.AppCompat.Caption">
-        <item name="android:textColor">?attr/textColorError</item>
+        <item name="android:textColor">@color/design_error</item>
     </style>
     <style name="TextAppearance.Design.Hint" parent="TextAppearance.AppCompat.Caption">
         <item name="android:textColor">?attr/colorControlActivated</item>
@@ -237,7 +291,7 @@
     <style name="Widget.Design.BottomSheet.Modal" parent="android:Widget">
         <item name="android:background">?android:attr/colorBackground</item>
         <item name="android:elevation">@dimen/design_bottom_sheet_modal_elevation</item>
-        <item name="behavior_peekHeight">@dimen/design_bottom_sheet_modal_peek_height</item>
+        <item name="behavior_peekHeight">auto</item>
         <item name="behavior_hideable">true</item>
         <item name="behavior_skipCollapsed">false</item>
     </style>
@@ -267,7 +321,6 @@
         <item name="insetForeground">#4000</item>
     </style>
     <style name="Widget.Design.Snackbar" parent="android:Widget">
-        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
         <item name="android:minWidth">@dimen/design_snackbar_min_width</item>
         <item name="android:maxWidth">@dimen/design_snackbar_max_width</item>
         <item name="android:background">@drawable/design_snackbar_background</item>
@@ -285,5 +338,7 @@
         <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+        <item name="passwordToggleDrawable">@drawable/design_ic_visibility</item>
+        <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
     </style>
 </resources>
