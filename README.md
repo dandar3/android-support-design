@@ -5,9 +5,9 @@ Eclipse library project based on:<br/>
 
 **Requires:**
 - `Android 7.0 (API 24) SDK Platform`
-- [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4)
-- [dandar3/android-support-v7-appcompat](https://github.com/dandar3/android-support-v7-appcompat)
-- [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview)
+- [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4/tree/24.2.0)
+- [dandar3/android-support-v7-appcompat](https://github.com/dandar3/android-support-v7-appcompat/24.2.0)
+- [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview/24.2.0)
 
 **References:**
 - https://plus.google.com/+IanLake/posts/NwdzkCkqeuz
