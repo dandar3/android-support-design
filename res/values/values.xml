@@ -28,6 +28,7 @@
             
             <flag name="snap" value="0x10"/>
         </attr><attr format="reference" name="layout_scrollInterpolator"/></declare-styleable>
+    <declare-styleable name="BottomNavigationView"><attr name="menu"/><attr name="itemIconTint"/><attr name="itemTextColor"/><attr name="itemBackground"/></declare-styleable>
     <declare-styleable name="BottomSheetBehavior_Layout"><attr format="dimension" name="behavior_peekHeight">
             
             <enum name="auto" value="-1"/>
@@ -186,6 +187,7 @@
     <dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
     <dimen name="design_bottom_navigation_height">56dp</dimen>
     <dimen name="design_bottom_navigation_item_max_width">96dp</dimen>
+    <dimen name="design_bottom_navigation_item_min_width">56dp</dimen>
     <dimen name="design_bottom_navigation_margin">8dp</dimen>
     <dimen name="design_bottom_navigation_text_size">12sp</dimen>
     <dimen name="design_bottom_sheet_modal_elevation">16dp</dimen>
@@ -287,6 +289,9 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="Widget.Design.AppBarLayout" parent="Base.Widget.Design.AppBarLayout">
+    </style>
+    <style name="Widget.Design.BottomNavigationView" parent="">
+        <item name="itemBackground">?attr/selectableItemBackgroundBorderless</item>
     </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="android:Widget">
         <item name="android:background">?android:attr/colorBackground</item>

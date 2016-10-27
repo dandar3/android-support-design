@@ -15,11 +15,14 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="android.support.design" 
-    android:versionCode="2421"
-    android:versionName="24.2.1">
+    android:versionCode="2500"
+    android:versionName="25.0.0">
 
-    <uses-sdk android:minSdkVersion="9" />
+    <uses-sdk
+        android:minSdkVersion="9"
+        tools:overrideLibrary="android.support.transition" />
 
     <application />
 
