@@ -17,8 +17,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="android.support.design" 
-    android:versionCode="2501"
-    android:versionName="25.0.1">
+    android:versionCode="2510"
+    android:versionName="25.1.0">
 
     <uses-sdk
         android:minSdkVersion="9"
