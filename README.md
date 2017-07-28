@@ -9,10 +9,11 @@ Eclipse library project based on:<br/>
 - [dandar3/android-support-v7-appcompat](https://github.com/dandar3/android-support-v7-appcompat/tree/25.4.0)
 - [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview/tree/25.4.0)
 - [dandar3/android-support-transition](https://github.com/dandar3/android-support-transition/tree/25.4.0)
+- [dandar3/android-support-multidex](https://github.com/dandar3/android-support-multidex/tree/1.0.2)
 
 **References:**
 - https://developer.android.com/topic/libraries/support-library/revisions.html#25-4-0
-- https://developer.android.com/topic/libraries/support-library/features.html#design
+- https://developer.android.com/topic/libraries/support-library/packages.html#design
 
 **SVN checkout:**
 - _File > Import... > Team > Team Project Set > URL:_<br/>
