@@ -11,7 +11,7 @@ https://maven.google.com/com/android/support/design/26.0.1/design-26.0.1.aar
 - [dandar3/android-support-transition](https://github.com/dandar3/android-support-transition/tree/26.0.1)
 
 **References:**
-- https://developer.android.com/topic/libraries/support-library/revisions.html#26-0-0
+- https://developer.android.com/topic/libraries/support-library/revisions.html#26-0-1
 - https://developer.android.com/topic/libraries/support-library/packages.html#design
 
 **SVN checkout:**
