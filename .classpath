@@ -9,6 +9,5 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/android-support-v7-appcompat"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/android-support-v7-recyclerview"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/android-support-transition"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/android-support-multidex"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
